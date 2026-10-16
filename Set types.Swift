@@ -23,3 +23,15 @@ print(fruit.contains("Mango"))
 print(name.contains("Monan"))
 print(name.contains("Tree"))
 
+Set remove and removeAll:
+var fruit : Set<String> = ["Apple","Mango"]
+var name :Set<String> = ["Monan","Arish"]
+
+fruit.remove("Apple")
+name.remove("Arish")
+
+print(fruit)
+print(name)
+
+print(fruit.removeAll())
+print(name.removeAll())
